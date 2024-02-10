@@ -1,0 +1,31 @@
+.Divheader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 253px;
+    height: 44px;
+    padding: 30px;
+}
+
+.img {
+    margin-top: 15px;
+}
+
+.input{
+    height: 60px;
+    width: 559px;
+
+}
+
+input::placeholder {
+  color: #999; /* Define a cor do texto do placeholder */
+  width: 166px;
+  height: 28px;
+  font-size: 16px;
+}
