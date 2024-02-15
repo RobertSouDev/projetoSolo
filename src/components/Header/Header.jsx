@@ -1,6 +1,8 @@
 import logo from "../../assets/logo.png"
+import iconC from "../../assets/iconC.png"
 import './Header.css'
 import Button from "../Button/Button"
+import Nav from "../Nav/Nav"
 
 function Header(){
     return(
@@ -25,8 +27,13 @@ function Header(){
                 <Button/>
             </div>
 
+            <div>
+                <img src={iconC} alt="" />
+            </div>
         </div>
-        
+        <div>
+            <Nav/>
+        </div>
         </>
     )
 }

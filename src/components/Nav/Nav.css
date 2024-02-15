@@ -1,0 +1,23 @@
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    padding: 40px;
+    font-size:  20px;
+}
+
+.diva {
+    margin-left: 20px;
+}
+
+a {
+    color: #474747;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #C92071;
+    text-decoration: underline;
+}
+
