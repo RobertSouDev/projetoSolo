@@ -1,14 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
 .Nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 500px;
-    padding: 40px;
-    font-size:  20px;
+    width: 50rem;
+    padding: 4rem;
+    font-size:  2rem;
 }
 
 .diva {
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 
 a {

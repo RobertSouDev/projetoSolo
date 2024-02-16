@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     font-size: 62.5%;
 }
@@ -17,14 +23,16 @@
     padding: 3rem;
 }
 
-.img {
-    margin-top: 1.5rem;
-}
+
 
 .input{
+    margin-top: 2rem;
     height: 6rem;
     width: 55.9rem;
-
+    padding: 5px;
+    border: none;
+    color: rgb(160, 160, 160);
+    background-color: rgb(245, 245, 245);
 }
 
 input::placeholder {
@@ -32,4 +40,8 @@ input::placeholder {
   width: 16.6rem;
   height: 2.8rem;
   font-size: 1.6rem;
+}
+
+a{
+    font-size: 1.6rem;
 }
