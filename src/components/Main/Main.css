@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.main {
+    width: 144rem;
+    height: 68.1rem;
+}
+
+.mainFilha {
+    width: 130.03rem;
+    height: 39.8rem;    
+}

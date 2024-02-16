@@ -4,6 +4,8 @@ function Segundo (){
     return (
         <>
          <Header />
+         <Main/>
+
         </>
     )
 
