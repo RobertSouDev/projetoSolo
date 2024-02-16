@@ -11,9 +11,36 @@
 .main {
     width: 144rem;
     height: 68.1rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 245, 245)
 }
 
 .mainFilha {
     width: 130.03rem;
-    height: 39.8rem;    
+    height: 39.8rem;
+    margin-top: 3.8rem;
+    margin-left: 10rem;    
 }
+
+
+span{
+    color:#F6AA1C;
+}
+
+h1{
+    font-size: 6.4rem;
+}
+
+p{
+    font-size: 1.6rem;
+
+}
+
+.neto {
+    padding: 5px;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+

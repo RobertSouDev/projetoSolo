@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.2%;
+}
+
+.btn {
+    background-color:#C92071; /* Substitua pela cor desejada */
+    width: 22.4rem;
+    height: 4.8rem;
+    /* Adicione estilos adicionais conforme necessário */
+    color: white; /* Define a cor do texto */
+    padding: 1rem 2rem; /* Adiciona espaço interno ao botão */
+    border: none; /* Remove a borda do botão, se desejado */
+    text-align: center; /* Centraliza o texto no botão */
+    text-decoration: none; /* Remove a sublinhado padrão para links */
+    display: inline-block; /* Permite definir largura e altura */
+    font-size: 1.6rem; /* Tamanho da fonte */
+    margin: .4rem .2rem; /* Adiciona margens ao redor do botão */
+    cursor: pointer; 
+    border-radius: 1rem ;
+    margin-left: 5rem;
+
+    margin-top: 3rem;
+}
