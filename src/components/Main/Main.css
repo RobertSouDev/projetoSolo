@@ -2,45 +2,55 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root {
+  }
+  
+  :root {
     font-size: 62.5%;
-}
-
-.main {
+  }
+  
+  .main {
     width: 144rem;
     height: 68.1rem;
     display: flex;
     align-items: center;
-    background-color: rgb(245, 245, 245)
-}
-
-.mainFilha {
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .mainFilha1 {
     width: 130.03rem;
     height: 39.8rem;
     margin-top: 3.8rem;
-    margin-left: 10rem;    
-}
-
-
-span{
-    color:#F6AA1C;
-}
-
-h1{
+    margin-left: 10rem;
+    position: relative; /* Adicionado */
+  }
+  
+  span {
+    color: #f6aa1c;
+  }
+  
+  h1 {
     font-size: 6.4rem;
-}
-
-p{
+  }
+  
+  p {
     font-size: 1.6rem;
-
-}
-
-.neto {
+  }
+  
+  .neto {
     padding: 5px;
     margin-top: 1rem;
     margin-left: 5rem;
-}
-
-
+  }
+  
+  .container {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+  .main-image {
+    width: 100%; /* Adicionado */
+    height: auto; /* Adicionado */
+  }
+  

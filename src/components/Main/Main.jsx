@@ -8,7 +8,7 @@ export default function Main(){
             <div className="main">
 
                 <div className="mainFilha1">
-                    <div >
+                    <div className="teste">
                         <div className="neto">
                             <p>
                                 <span>Melhores ofertas personalizadas</span>
@@ -34,10 +34,17 @@ export default function Main(){
                         <div >
                             <ButtonMain/>
                         </div>
-                    </div>
+
+
 
          
                 </div>
+          
+                    </div>
+                        <div className="container">
+                        <img src={main} alt="" className="imagem-sobre-div" />
+                        
+                    </div>
             </div>
         </>
     )
